@@ -8,6 +8,8 @@ layout: default
 * [About Me](https://about.me/graffen)
 
 # Crypto
+Get a pgp-signed version of the markdown behind this page [here](index.md.asc). Use this signature to verify that 
+the below information is correct.
 
 ## Keys
 * PGP Key Fingerprint: `7818 9E24 005B 0933 0CF6  2536 416C 5A0D D9FA 2EE5`  
