@@ -16,6 +16,7 @@ the below information is correct.
 Download my key [here](graffen.asc) or grab it from your key server of choice.
 * OTR Keys
   * Jabber: graffen@graffen.dk/Laptop: `73B09ADB A4EFF7D4 42A3FC69 35E18AF5 73DEFDCC`
+  * Jabber: graffen@graffen.dk/Home: `59C3E1EF 4D17DB9F A73FB5C3 4AEEFE35 76FB11A9`
 
 ## Key signing policy
 I will sign your PGP key if you ask me to, and I have somehow verified that the identity of the key matches your
