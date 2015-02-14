@@ -14,9 +14,8 @@ the below information is correct.
 ## Keys
 
 * GPG Key Fingerprint: `03CD 582F 13C0 682C 8F52  9C05 8417 0D85 CAEB D4B2`  
-[Transition Notice](/transition-notice.html)  
-Download my key [here](graffen.asc) or grab it from your key server of choice.
-
+Download my key [here](graffen.asc) or grab it from your key server of choice.  
+*NB! New Key!* Read my [Transition Notice](/transition-notice.html) here.
 * OTR Keys
   * Jabber: graffen@graffen.dk/Laptop: `73B09ADB A4EFF7D4 42A3FC69 35E18AF5 73DEFDCC`
   * Jabber: graffen@graffen.dk/Home: `59C3E1EF 4D17DB9F A73FB5C3 4AEEFE35 76FB11A9`
