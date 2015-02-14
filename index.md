@@ -8,12 +8,15 @@ layout: default
 * [About Me](https://about.me/graffen)
 
 # Crypto
-Get a pgp-signed version of the markdown behind this page [here](index.md.asc). Use this signature to verify that 
+Get a GPG-signed version of the markdown behind this page [here](index.md.asc). Use this signature to verify that 
 the below information is correct.
 
 ## Keys
-* PGP Key Fingerprint: `7818 9E24 005B 0933 0CF6  2536 416C 5A0D D9FA 2EE5`  
+
+* GPG Key Fingerprint: `03CD 582F 13C0 682C 8F52  9C05 8417 0D85 CAEB D4B2`  
+[Transition Notice](/transition-notice.html)  
 Download my key [here](graffen.asc) or grab it from your key server of choice.
+
 * OTR Keys
   * Jabber: graffen@graffen.dk/Laptop: `73B09ADB A4EFF7D4 42A3FC69 35E18AF5 73DEFDCC`
   * Jabber: graffen@graffen.dk/Home: `59C3E1EF 4D17DB9F A73FB5C3 4AEEFE35 76FB11A9`
@@ -22,3 +25,9 @@ Download my key [here](graffen.asc) or grab it from your key server of choice.
 ## Key signing policy
 I will sign your PGP key if you ask me to, and I have somehow verified that the identity of the key matches your
 identity. I will probably also ask you to sign my key. [More information](https://blog.graffen.dk/KeySigningPolicy)
+
+## Old Keys
+The following keys have been superseded by the above. I will keep them active for the time being but please use the above keys for all communications.
+
+* PGP Key Fingerprint: `7818 9E24 005B 0933 0CF6 2536 416C 5A0D D9FA 2EE5`  
+
