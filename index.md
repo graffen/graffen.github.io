@@ -6,8 +6,7 @@ layout: default
 
 * [My blog](https://blog.graffen.dk)
 * [About Me](https://about.me/graffen)
-* [PGP Key Signing Policy](/keysigning/policy)  
-[Signed version](/keysigning/policy/index.md.asc)
+* [PGP Key Signing Policy](/keysigning/policy) [[Signed version]](/keysigning/policy/index.md.asc)
 
 # Crypto
 Get a GPG-signed version of the markdown behind this page [here](index.md.asc). Use this signature to verify that 
