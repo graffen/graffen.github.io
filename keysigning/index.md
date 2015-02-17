@@ -17,4 +17,6 @@ Bemærk at emailadresser er obfuskeret indtil videre.
 2753 61B2 CBB6 D9D8 D105</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
 <tr><td><pre>91C66809</pre></td><td>Mikael Mundt &lt;mmundt@xxxxxxxxx.com&gt;</td><td><pre>8A23 8426 4F21 7795 01C1
 931A 36FD CB29 91C6 6809</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>040F4873</pre></td><td>Thomas Bracht Laumann Jespersen &lt;laumann.thomas@xxxxxxxxx.com&gt;</td><td><pre>BBD8 98F6 7DB2 72AF C15C
+9CA9 0AEB C8BE 040F 4873</pre></td><td>2048</td><td>RSA</td><td></td><td></td></tr>
 </table>
