@@ -39,3 +39,13 @@ I generally only sign keys with trust levels 0x12 and 0x13.
   * I will sign your key if we cannot meet in person but someone I ultimately trust notifies me that you want a signature, and gives me your key id verbally or in person. 
   * I will sign your key without meeting in person if I know you very well personally (such as working with you, going to school with you, family etc.) and we can exchange key fingerprints in another fashion such as over the phone.
 
+## My private master key
+
+My private master signing key is only be used for the following purposes: 
+
+* Add or revoke UIDs
+* Add or revoke subkeys
+* Sign other people's keys
+
+My private master key is generated and stored offline on a clean, air-gapped machine that is always booted fresh with the latest version of [Tails](https://tails.boum.org/). The private master key has never and will never be exposed internet and is protected by a long, secure passphrase.
+
