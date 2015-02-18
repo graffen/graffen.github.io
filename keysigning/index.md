@@ -21,4 +21,14 @@ Bemærk at emailadresser er obfuskeret indtil videre.
 9CA9 0AEB C8BE 040F 4873</pre></td><td>2048</td><td>RSA</td><td></td><td></td></tr>
 <tr><td><pre>06FCF9DD</pre></td><td>Sarah Braun &lt;sarah@xxxxxxxxx.net&gt;</td><td><pre>D0DB 5A04 BF5F 10E8 5099
 4876 D56F 9A1C 06FC F9DD</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>9578A7BE</pre></td><td>keybase.io/spiffy &lt;spiffy@keybase.io&gt;</td><td><pre>FEFD D3B1 3C92 811E 75C2
+B785 8337 DC48 9578 A7BE</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>E4219606</pre></td><td>Alexander Færøy &lt;ahfaeroey@xxxxxxxxx.net&gt;</td><td><pre>6CFD 0280 C8E8 5FB5 FBAB
+C418 1479 6C51 E421 9606</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>4DA717B1</pre></td><td>The Irssi Project &lt;staff@xxxxxxxxx.org&gt;</td><td><pre>E281 E6A2 2D0D B4F4 D2AF
+CF93 3C87 952D 4DA7 17B1</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>2B08CE8F</pre></td><td>Alexander Færøy &lt;ahf@xxxxxxxxx.dk&gt;</td><td><pre>1C2A 7A3D 5A85 48B4 ADEF
+D52A F9BC 2FE2 2B08 CE8F</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>9F1983CC</pre></td><td>Víðir Valberg Guðmundsson &lt;vidir@orn.li&gt;</td><td><pre>96E7 AE87 8EEB 1B89 D025
+16E0 91D9 0359 9F19 83CC</pre></td><td>2048</td><td>RSA</td><td></td><td></td></tr>
 </table>
