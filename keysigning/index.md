@@ -19,4 +19,6 @@ Bemærk at emailadresser er obfuskeret indtil videre.
 931A 36FD CB29 91C6 6809</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
 <tr><td><pre>040F4873</pre></td><td>Thomas Bracht Laumann Jespersen &lt;laumann.thomas@xxxxxxxxx.com&gt;</td><td><pre>BBD8 98F6 7DB2 72AF C15C
 9CA9 0AEB C8BE 040F 4873</pre></td><td>2048</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>06FCF9DD</pre></td><td>Sarah Braun &lt;sarah@xxxxxxxxx.net&gt;</td><td><pre>D0DB 5A04 BF5F 10E8 5099
+4876 D56F 9A1C 06FC F9DD</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
 </table>
