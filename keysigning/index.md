@@ -33,4 +33,8 @@ D52A F9BC 2FE2 2B08 CE8F</pre></td><td>4096</td><td>RSA</td><td></td><td></td></
 16E0 91D9 0359 9F19 83CC</pre></td><td>2048</td><td>RSA</td><td></td><td></td></tr>
 <tr><td><pre>EBC6A163</pre></td><td>Søren Fuglede Jørgensen &lt;s@xxxxxxxxx.dk&gt;</td><td><pre>4560 36D0 6FED EABD 4357
 FBEB EFCA 098B EBC6 A163</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>11CBE3D7</pre></td><td>Søren Nielsen (Key for private stuff) &lt;nielsen@xxxxxxxxx.dk&gt;</td><td><pre>02D0 5BE9 7AE2 0317 BDA6
+A855 1AE3 DC98 11CB E3D7</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
+<tr><td><pre>D8340387</pre></td><td>Stefan Awesome Andersen &lt;stefan@xxxxxxxxx.dk&gt;</td><td><pre>C405 6244 E122 8CB1 922C
+CA85 60F1 E1AE D834 0387</pre></td><td>4096</td><td>RSA</td><td></td><td></td></tr>
 </table>
