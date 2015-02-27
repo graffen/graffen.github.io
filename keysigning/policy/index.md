@@ -47,5 +47,5 @@ My private master signing key is only used for the following purposes:
 * Add or revoke subkeys or change expiry
 * Sign other people's keys
 
-My private master key is generated and stored offline on a clean, air-gapped machine that is always booted fresh with the latest version of [Tails](https://tails.boum.org/). The private master key has never and will never be exposed internet and is protected by a long, secure passphrase.
+My private master key is generated and stored offline on a clean, air-gapped machine that is always booted fresh with the latest version of [Tails](https://tails.boum.org/). The private master key has never and will never be exposed to the internet and is protected by a long, secure passphrase.
 
