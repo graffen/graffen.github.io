@@ -25,7 +25,7 @@ I also have a [Key Signing Policy](/keysigning/policy/).
 
 ## Key signing policy
 I will sign your PGP key if you ask me to, and I have somehow verified that the identity of the key matches your
-identity. I will probably also ask you to sign my key.
+identity. I will probably also ask you to sign my key. Find a link to my full key signing policy at the top of this page. 
 
 ## Old Keys
 The following keys have been superseded by the above. I will keep them active for the time being but please use the above keys for all communications.
