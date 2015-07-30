@@ -1,3 +1,4 @@
+Enable-MicrosoftUpdate
 Install-WindowsUpdate -AcceptEula
 
 ### Browsers ###
