@@ -32,7 +32,7 @@ if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Encryption & Privacy ###
 cinst gpg4win -y
-cinst install truecrypt -version 7.1.20150620 -y
+#cinst install truecrypt -version 7.1.20150620 -y  #This doesn't quite work, and the installer pops up a dialog
 cinst tor-browser -y
 if (Test-PendingReboot) { Invoke-Reboot }
 
