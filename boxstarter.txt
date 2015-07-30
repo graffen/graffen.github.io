@@ -9,20 +9,6 @@ cinst Microsoft-Hyper-V-All -source windowsFeatures -y
 cinst IIS-WebServerRole -source windowsfeatures -y
 if (Test-PendingReboot) { Invoke-Reboot }
 
-### Power Plan
-SetPowerPlan "High performance"
-Write-BoxstarterMessage "Setting Standby Timeout to Never"
-& powercfg.exe -change -standby-timeout-ac 0
-& powercfg.exe -change -standby-timeout-dc 0
-Write-BoxstarterMessage "Setting Monitor Timeout to Never"
-& powercfg.exe -change -monitor-timeout-ac 0
-& powercfg.exe -change -monitor-timeout-dc 0
-Write-BoxstarterMessage "Setting Disk Timeout to Never"
-& powercfg.exe -change -disk-timeout-ac 0
-& powercfg.exe -change -disk-timeout-dc 0
-Write-BoxstarterMessage "Turning off Windows Hibernation"
-& powercfg.exe -h off
-
 ### Browsers ###
 cinst google-chrome-x64 -y
 if (Test-PendingReboot) { Invoke-Reboot }
