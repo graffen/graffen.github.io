@@ -39,6 +39,9 @@ cinst sublimetext3 -y
 ### Fun ###
 choco install spotify -y
 
+### Bitcoin ###
+choco install electrum
+
 ### Shortcuts ###
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Mozilla Thunderbird\thunderbird.exe"
