@@ -1,12 +1,4 @@
 Install-WindowsUpdate -AcceptEula
-if (Test-PendingReboot) { Invoke-Reboot }
-
-### Set up Windows ###
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions 
-Set-TaskbarOptions -Size Small -Lock
-Enable-RemoteDesktop
-cinst Microsoft-Hyper-V-All -source windowsFeatures -y
-cinst IIS-WebServerRole -source windowsfeatures -y
 
 ### Browsers ###
 cinst google-chrome-x64 -y
@@ -46,6 +38,15 @@ cinst sublimetext3 -y
 ### Fun ###
 choco install spotify -y
 
+### Shortcuts ###
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Mozilla Thunderbird\thunderbird.exe"
 Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles\Sublime Text 3\sublime_text.exe"
+
+### Set up Windows ###
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions 
+Set-TaskbarOptions -Size Small -Lock
+Enable-RemoteDesktop
+cinst Microsoft-Hyper-V-All -source windowsFeatures -y
+cinst IIS-WebServerRole -source windowsfeatures -y
+
