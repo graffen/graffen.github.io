@@ -1,5 +1,4 @@
 ### Set Time Zone ###
-
 Write-BoxstarterMessage "Setting time zone to Romance Standard Time"
 & C:\Windows\system32\tzutil /s "Romance Standard Time"
 Install-WindowsUpdate -AcceptEula
