@@ -1,28 +1,76 @@
-### Set Time Zone ###
-Write-BoxstarterMessage "Setting time zone to Romance Standard Time"
-& C:\Windows\system32\tzutil /s "Romance Standard Time"
+### Invoke Reboot to capture password... less babysitting afterwards ###
+Invoke-Reboot
+
 Install-WindowsUpdate -AcceptEula
-cinst google-chrome-x64 -y
-cinst skype -y
-cinst 7zip -y
-cinst filezilla -y
-cinst gpg4win -y
-cinst lastpass -y
-cinst thunderbird -y
-cinst pidgin -y
-cinst pidginotrplugin -y
-cinst putty -y
-cinst sublimetext3 -y
-cinst teamviewer -y
-cinst f.lux -y
-cinst sysinternals -y
-cinst git -y
-cinst git.install -y
-cinst sourcetree -y
-cinst dropbox -y
-cinst tor-browser -y
-Set-WindowsExplorerOptions -showProtectedOSFiles -showFileExtensions
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Set up Windows ###
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions 
 Set-TaskbarOptions -Size Small -Lock
 Enable-RemoteDesktop
 cinst Microsoft-Hyper-V-All -source windowsFeatures -y
 cinst IIS-WebServerRole -source windowsfeatures -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Power Plan
+SetPowerPlan "High performance"
+Write-BoxstarterMessage "Setting Standby Timeout to Never"
+& powercfg.exe -change -standby-timeout-ac 0
+& powercfg.exe -change -standby-timeout-dc 0
+Write-BoxstarterMessage "Setting Monitor Timeout to Never"
+& powercfg.exe -change -monitor-timeout-ac 0
+& powercfg.exe -change -monitor-timeout-dc 0
+Write-BoxstarterMessage "Setting Disk Timeout to Never"
+& powercfg.exe -change -disk-timeout-ac 0
+& powercfg.exe -change -disk-timeout-dc 0
+Write-BoxstarterMessage "Turning off Windows Hibernation"
+& powercfg.exe -h off
+
+### Browsers ###
+cinst google-chrome-x64 -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Communication ###
+cinst skype -y
+cinst thunderbird -y
+cinst pidgin -y
+cinst pidginotrplugin -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Utilities ###
+cinst 7zip -y
+cinst lastpass -y
+cinst putty -y
+cinst teamviewer -y
+cinst f.lux -y
+cinst sysinternals -y
+cinst windirstat -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Encryption & Privacy ###
+cinst gpg4win -y
+cinst install truecrypt -version 7.1.20150620 -y
+cinst tor-browser -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Source Control ###
+cinst git -y
+cinst git.install -y
+cinst sourcetree -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Cloud & FTP ###
+cinst filezilla -y
+cinst dropbox -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+### Editors ###
+cinst sublimetext3 -y
+
+### Fun ###
+choco install spotify -y
+if (Test-PendingReboot) { Invoke-Reboot }
+
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Mozilla Thunderbird\thunderbird.exe"
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles)\Sublime Text 3\sublime_text.exe"
