@@ -1,0 +1,29 @@
+### Set Time Zone ###
+
+Write-BoxstarterMessage "Setting time zone to Romance Standard Time"
+& C:\Windows\system32\tzutil /s "Romance Standard Time"
+Install-WindowsUpdate -AcceptEula
+cinst google-chrome-x64 -y
+cinst skype -y
+cinst 7zip -y
+cinst filezilla -y
+cinst gpg4win -y
+cinst lastpass -y
+cinst thunderbird -y
+cinst pidgin -y
+cinst pidginotrplugin -y
+cinst putty -y
+cinst sublimetext3 -y
+cinst teamviewer -y
+cinst f.lux -y
+cinst sysinternals -y
+cinst git -y
+cinst git.install -y
+cinst sourcetree -y
+cinst dropbox -y
+cinst tor-browser -y
+Set-WindowsExplorerOptions -showProtectedOSFiles -showFileExtensions
+Set-TaskbarOptions -Size Small -Lock
+Enable-RemoteDesktop
+cinst Microsoft-Hyper-V-All -source windowsFeatures -y
+cinst IIS-WebServerRole -source windowsfeatures -y
