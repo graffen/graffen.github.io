@@ -6,7 +6,7 @@ cinst google-chrome-x64 -y
 
 ### Communication ###
 cinst skype -y
-cinst thunderbird -packageParameters="l=en-US" -y
+cinst thunderbird -packageParameters "l=en-US" -y
 cinst pidgin -y
 cinst pidginotrplugin -y
 
