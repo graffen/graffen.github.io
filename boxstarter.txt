@@ -10,9 +10,9 @@ cinst pidgin -y
 cinst pidginotrplugin -y
 
 ### Utilities ###
-cinst 7zip -y
+cinst 7zip.install -y
 cinst lastpass -y
-cinst putty.install -y
+cinst putty -y
 cinst teamviewer -y
 cinst f.lux -y
 cinst sysinternals -y
