@@ -13,7 +13,7 @@ cinst pidginotrplugin -y
 ### Utilities ###
 cinst 7zip.install -y
 cinst lastpass -y
-cinst putty -y
+cinst putty.install -version 0.65 -y
 cinst teamviewer -y
 cinst f.lux -y
 cinst sysinternals -y
@@ -41,7 +41,7 @@ cinst sublimetext3 -y
 choco install spotify -y
 
 ### Bitcoin ###
-choco install electrum
+choco install electrum.install -y
 
 ### Shortcuts ###
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
