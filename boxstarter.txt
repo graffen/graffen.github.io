@@ -1,6 +1,3 @@
-### Invoke Reboot to capture password... less babysitting afterwards ###
-Invoke-Reboot
-
 Install-WindowsUpdate -AcceptEula
 if (Test-PendingReboot) { Invoke-Reboot }
 
