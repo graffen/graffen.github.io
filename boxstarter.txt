@@ -48,4 +48,4 @@ choco install spotify -y
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Mozilla Thunderbird\thunderbird.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles)\Sublime Text 3\sublime_text.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles\Sublime Text 3\sublime_text.exe"
