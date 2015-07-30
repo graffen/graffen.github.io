@@ -12,7 +12,7 @@ cinst pidginotrplugin -y
 ### Utilities ###
 cinst 7zip -y
 cinst lastpass -y
-cinst putty -y
+cinst putty.install -y
 cinst teamviewer -y
 cinst f.lux -y
 cinst sysinternals -y
@@ -20,6 +20,7 @@ cinst windirstat -y
 
 ### Encryption & Privacy ###
 cinst gpg4win -y
+Install-ChocolateyEnvironmentVariable "LC_MESSAGES" "C" # Force GnuPG output language to English
 #cinst install truecrypt -version 7.1.20150620 -y  #This doesn't quite work, and the installer pops up a dialog
 cinst tor-browser -y
 
