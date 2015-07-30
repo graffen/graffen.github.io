@@ -7,18 +7,15 @@ Set-TaskbarOptions -Size Small -Lock
 Enable-RemoteDesktop
 cinst Microsoft-Hyper-V-All -source windowsFeatures -y
 cinst IIS-WebServerRole -source windowsfeatures -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Browsers ###
 cinst google-chrome-x64 -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Communication ###
 cinst skype -y
 cinst thunderbird -y
 cinst pidgin -y
 cinst pidginotrplugin -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Utilities ###
 cinst 7zip -y
@@ -28,32 +25,27 @@ cinst teamviewer -y
 cinst f.lux -y
 cinst sysinternals -y
 cinst windirstat -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Encryption & Privacy ###
 cinst gpg4win -y
 #cinst install truecrypt -version 7.1.20150620 -y  #This doesn't quite work, and the installer pops up a dialog
 cinst tor-browser -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Source Control ###
 cinst git -y
 cinst git.install -y
 cinst sourcetree -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Cloud & FTP ###
 cinst filezilla -y
 cinst dropbox -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
 ### Editors ###
 cinst sublimetext3 -y
 
 ### Fun ###
 choco install spotify -y
-if (Test-PendingReboot) { Invoke-Reboot }
 
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Mozilla Thunderbird\thunderbird.exe"
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles)\Sublime Text 3\sublime_text.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:programfiles(x86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:programfiles(x86)\Mozilla Thunderbird\thunderbird.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:programfiles\Sublime Text 3\sublime_text.exe"
