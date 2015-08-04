@@ -19,7 +19,7 @@ Download my key [here](graffen.asc) or grab it from your key server of choice.
 *NB! New Key!* Read my [Transition Notice](/transition-notice.html) here.  
 I also have a [Key Signing Policy](/keysigning/policy/).
 * OTR Keys
-  * Jabber: graffen@graffen.dk/Laptop: `00C4C549 F8AEE802 A72452DC 50505408 2FB0AC91`
+  * Jabber: graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
   * Jabber: graffen@graffen.dk/Home: `59C3E1EF 4D17DB9F A73FB5C3 4AEEFE35 76FB11A9`
 * SSH Key: If you need to give me access via SSH to your system, download my SSH key [here](graffen-ssh-key.txt) and a verification signature [here](graffen-ssh-key.txt.asc). Of course you have to verify my GnuPG key first :-)  
 
@@ -32,3 +32,4 @@ The following keys have been superseded by the above. I will keep them active fo
 
 * PGP Key Fingerprint: `7818 9E24 005B 0933 0CF6 2536 416C 5A0D D9FA 2EE5`  
 * Jabber: graffen@graffen.dk/Laptop: `73B09ADB A4EFF7D4 42A3FC69 35E18AF5 73DEFDCC`
+* Jabber: graffen@graffen.dk/Laptop: `00C4C549 F8AEE802 A72452DC 50505408 2FB0AC91`
