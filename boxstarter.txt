@@ -13,7 +13,7 @@ cinst pidginotrplugin -y
 ### Utilities ###
 cinst 7zip.install -y
 cinst lastpass -y
-cinst putty.install -version 0.65 -y
+cinst putty.install -y
 cinst teamviewer -y
 cinst sysinternals -y
 cinst windirstat -y
