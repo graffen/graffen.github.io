@@ -43,6 +43,7 @@ choco install electrum.install -y
 
 ## Utilities ###
 choco install yubikey-personalization-tool -y
+choco install adobe-creative-cloud -y
 
 ### Shortcuts ###
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
