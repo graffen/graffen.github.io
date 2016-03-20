@@ -2,6 +2,8 @@
 layout: default
 ---
 
+Hi! I'm Jesper. This page is just a place where I advertise my current set of crypto keys for safe communication. So if you wish to contact me and preserve your (and my) privacy, feel free to do so using one of the methods below. 
+
 # Links
 
 * [My blog](https://blog.graffen.dk)
@@ -17,8 +19,8 @@ Read my latest GnuPG key [Transition Notice](/transition-notice.html)
 
 * [GnuPG key](graffen.asc): `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2` 
 * OTR Keys
-  * Jabber: graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
-  * Jabber: graffen@graffen.dk/Home: `03CFA086 9BA80C90 0645114E 7072825C B615F5B3`
+  * XMPP: graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
+  * XMPP: graffen@graffen.dk/Home: `03CFA086 9BA80C90 0645114E 7072825C B615F5B3`
 * SSH Key: If you need to give me access via SSH to your system, download my SSH key [here](graffen-ssh-key.txt) and a verification signature [here](graffen-ssh-key.txt.asc). Of course you have to verify my GnuPG key first :-)  
 
 ## Key signing policy
