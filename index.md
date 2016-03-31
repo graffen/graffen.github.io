@@ -15,12 +15,12 @@ Get a GPG-signed version of the markdown behind this page [here](index.md.asc).
 
 # Contact
 
-These are the best ways to contact me securely and/or anonymously. My public key fingerprints are listed next to each so you can verify you have the correct information.
+The following are the best ways to contact me securely and/or anonymously. My public key fingerprints are listed next to each so you can verify you have the correct information.
 
-* Email: [jesper@graffen.dk](mailto:jesper@graffen.dk) - [GnuPG key](graffen.asc) `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2` 
+* Email: [jesper@graffen.dk](mailto:jesper@graffen.dk) - [GnuPG](graffen.asc) `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2` 
 * OTR (Jabber/XMPP): [graffen@graffen.dk](xmpp:jesper@graffen.dk)
-  * XMPP: graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
-  * XMPP: graffen@graffen.dk/Home: `03CFA086 9BA80C90 0645114E 7072825C B615F5B3`
+  * graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
+  * graffen@graffen.dk/Home: `03CFA086 9BA80C90 0645114E 7072825C B615F5B3`
 * Threema ID: MK3CPXV9 `b163 bbb8 6899 d2aa c871 5d8d 8082 e1d0` 
 
 ---
