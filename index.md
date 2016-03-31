@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi! I'm Jesper. This page is just a place where I advertise my current set of crypto keys for safe communication. So if you wish to contact me and preserve your (and my) privacy, feel free to do so using one of the methods below. 
+Hi! I'm Jesper. This page is just a place where I advertise my current set of crypto keys for safe communication. So, if you wish to contact me and preserve your (and my) privacy, feel free to do so using one of the methods below. 
 
 Get a GPG-signed version of the markdown behind this page [here](index.md.asc).
 
