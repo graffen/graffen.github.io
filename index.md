@@ -4,6 +4,12 @@ layout: default
 
 Hi! I'm Jesper. This page is just a place where I advertise my current set of crypto keys for safe communication. So if you wish to contact me and preserve your (and my) privacy, feel free to do so using one of the methods below. 
 
+# Contact
+
+* Email: [jesper@graffen.dk](mailto:jesper@graffen.dk)
+* OTR (Jabber/XMPP): [graffen@graffen.dk](xmpp:jesper@graffen.dk)
+* Threema ID: MK3CPXV9
+
 # Links
 
 * [My blog](https://blog.graffen.dk)
@@ -24,6 +30,7 @@ Read my latest GnuPG key [Transition Notice](/transition-notice.html)
 * OTR Keys
   * XMPP: graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
   * XMPP: graffen@graffen.dk/Home: `03CFA086 9BA80C90 0645114E 7072825C B615F5B3`
+* Threema ID MK3CPXV: `b163bbb86899d2aac8715d8d8082e1d0`
 * SSH Key: If you need to give me access via SSH to your system, download my SSH key [here](graffen-ssh-key.txt) and a verification signature [here](graffen-ssh-key.txt.asc). Of course you have to verify my GnuPG key first :-)  
 
 ## Key signing policy
