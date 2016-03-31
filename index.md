@@ -10,6 +10,9 @@ Hi! I'm Jesper. This page is just a place where I advertise my current set of cr
 * [About Me](https://about.me/graffen)
 * [PGP Key Signing Policy](/keysigning/policy/) [[Signed version]](/keysigning/policy/index.md.asc)
 
+# Jabber / XMPP
+graffen.dk hosts a jabber/xmpp server that is open for anyone to use. See more [here](/jabber)
+
 # Crypto
 Get a GPG-signed version of the markdown behind this page [here](index.md.asc). Use this signature to verify that 
 the below information is correct.
