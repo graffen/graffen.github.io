@@ -33,4 +33,4 @@ You can create a group chatroom @conference.graffen.dk that any jabber user can 
 
 ### Federation
 
-graffen.dk allows federated connections to all other S2S jabber servers. You can chat with almost anyone that has a jabber account somewhere. Note that Google Talk (has this been deprecated yet?) doesn't support S2S connections.
+graffen.dk allows federated connections to all other S2S TLS-enabled Jabber servers so you can chat with anyone that has a Jabber account. Note that Google Talk (has this been deprecated yet?) doesn't support S2S connections.
