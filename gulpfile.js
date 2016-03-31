@@ -11,7 +11,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+    return cp.spawn('bundle.bat', ['exec','jekyll','build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -26,10 +26,8 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['jekyll-build'], function() {
-    browserSync({
-        server: {
-            baseDir: '_site'
-        }
+    browserSync.init({
+        server: '_site'
     });
 });
 
@@ -38,7 +36,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
  * if you add folder for pages, collection or datas, add them to this list
  */
 gulp.task('watch', function () {
-    gulp.watch(['./*', '_layouts/*', '_includes/*', '_posts/*', '_sass/*', 'css/*'], ['jekyll-rebuild']);
+    gulp.watch(['./*', '_layouts/*', '_includes/*', '_posts/*', '_sass/*', 'css/*', 'jabber/*', 'keysigning/*'], ['jekyll-rebuild']);
 });
 
 /**

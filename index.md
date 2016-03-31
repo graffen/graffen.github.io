@@ -4,40 +4,44 @@ layout: default
 
 Hi! I'm Jesper. This page is just a place where I advertise my current set of crypto keys for safe communication. So if you wish to contact me and preserve your (and my) privacy, feel free to do so using one of the methods below. 
 
-# Contact
-
-* Email: [jesper@graffen.dk](mailto:jesper@graffen.dk)
-* OTR (Jabber/XMPP): [graffen@graffen.dk](xmpp:jesper@graffen.dk)
-* Threema ID: MK3CPXV9
+Get a GPG-signed version of the markdown behind this page [here](index.md.asc).
 
 # Links
 
 * [My blog](https://blog.graffen.dk)
-* [About Me](https://about.me/graffen)
-* [PGP Key Signing Policy](/keysigning/policy/) [[Signed version]](/keysigning/policy/index.md.asc)
+* [Keybase](https://keybase.io/graffen/)
 
-# Jabber / XMPP
-graffen.dk hosts a jabber/xmpp server that is open for anyone to use. See more [here](/jabber)
+---
 
-# Crypto
-Get a GPG-signed version of the markdown behind this page [here](index.md.asc). Use this signature to verify that 
-the below information is correct.
+# Contact
 
-## Keys
-Read my latest GnuPG key [Transition Notice](/transition-notice.html)
+These are the best ways to contact me securely and/or anonymously. My public key fingerprints are listed next to each so you can verify you have the correct information.
 
-* [GnuPG key](graffen.asc): `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2` 
-* OTR Keys
+* Email: [jesper@graffen.dk](mailto:jesper@graffen.dk) - [GnuPG key](graffen.asc) `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2` 
+* OTR (Jabber/XMPP): [graffen@graffen.dk](xmpp:jesper@graffen.dk)
   * XMPP: graffen@graffen.dk/Laptop: `032CC0E9 7195AFD8 B35D2948 E554288B 94E31B1D`
   * XMPP: graffen@graffen.dk/Home: `03CFA086 9BA80C90 0645114E 7072825C B615F5B3`
-* Threema ID MK3CPXV: `b163bbb86899d2aac8715d8d8082e1d0`
-* SSH Key: If you need to give me access via SSH to your system, download my SSH key [here](graffen-ssh-key.txt) and a verification signature [here](graffen-ssh-key.txt.asc). Of course you have to verify my GnuPG key first :-)  
+* Threema ID: MK3CPXV9 `b163 bbb8 6899 d2aa c871 5d8d 8082 e1d0` 
 
-## Key signing policy
+---
+
+# Jabber / XMPP
+graffen.dk hosts a jabber/xmpp server that is open for anyone to use. See more [here](/jabber).
+
+---
+
+# Crypto
+
+### GnuPG
+Read my latest GnuPG key [Transition Notice](/transition-notice.html)
+
+### Key signing policy
 I will sign your PGP key if you ask me to, and I have somehow verified that the identity of the key matches your
-identity. I will probably also ask you to sign my key. Find a link to my full key signing policy at the top of this page. 
+identity. I will probably also ask you to sign my key. 
 
-## Discontinued Keys
+[GPG Key Signing Policy](/keysigning/policy/) [[Signed version]](/keysigning/policy/index.md.asc) 
+
+### Discontinued Crypto Keys
 The following keys have been superseded by the above. Please don't use these to communicate with me. I haven't been too good at taking backups of my Jabber OTR keys so I've gone through a few of them. 
 
 

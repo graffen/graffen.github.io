@@ -1,5 +1,6 @@
 ---
 layout: default
+title: graffen.dk Jabber / XMPP server information
 ---
 # Public Jabber/XMPP server on graffen.dk
 
