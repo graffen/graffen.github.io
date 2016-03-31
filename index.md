@@ -41,8 +41,8 @@ identity. I will probably also ask you to sign my key.
 
 [GPG Key Signing Policy](/keysigning/policy/) [[Signed version]](/keysigning/policy/index.md.asc) 
 
-### Discontinued Crypto Keys
-The following keys have been superseded by the above. Please don't use these to communicate with me. I haven't been too good at taking backups of my Jabber OTR keys so I've gone through a few of them. 
+### Deprecated Crypto Keys
+The following keys have been deprecated for one reason or another. Please don't use these to communicate with me. I haven't been too good at taking backups of my Jabber OTR keys so I've gone through a few of them. 
 
 
 * GnuPG : `7818 9E24 005B 0933 0CF6 2536 416C 5A0D D9FA 2EE5`
