@@ -2,10 +2,7 @@
 <html>
   {% include head.html %}
   <body>
-    <header class="site-header">
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a><br />
-      The site is also available as a <a href="http://graffenteqk3od63.onion/">Tor hidden service</a>
-    </header>
+    {% include header.html %} 
     <div class="page-content">
       {{ content }}
     </div>
