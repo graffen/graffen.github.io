@@ -24,6 +24,8 @@ my current fingerprint, or by verifying it through some other trusted means.
 * OTR (Jabber/XMPP): [graffen@xmpp.dk](xmpp:graffen@xmpp.dk)
   * graffen@xmpp.dk/Home  
     Fingerprint: `F513D9C5 36393609 51C801B5 C5F584C7 DC60B7D7`
+  * graffen@xmpp.dk/Qubes  
+    Fingerprint: `6A99F136 E66972B9 B169D5B3 458828D1 4003240F`
 * Threema ID: MK3CPXV9  
   Fingerprint: `b163 bbb8 6899 d2aa c871 5d8d 8082 e1d0`
 * Ricochet: ricochet:zc3c3deoiqwrktdn
