@@ -20,7 +20,8 @@ Since I cannot guarantee that the OTR fingerprints listed below are always 100% 
 my current fingerprint, or by verifying it through some other trusted means.
 
 * Email: [jesper@graffen.dk][email]  
-[GnuPG](graffen.asc) Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`  
+[GnuPG](graffen.asc) Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`
+If you have keybase, I prefer keybase-encrypted (and signed) messages rather than GnuPG.   
 * OTR (Jabber/XMPP): [graffen@xmpp.dk](xmpp:graffen@xmpp.dk)
   * graffen@xmpp.dk/Home  
     Fingerprint: `F513D9C5 36393609 51C801B5 C5F584C7 DC60B7D7`
