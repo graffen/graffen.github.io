@@ -38,6 +38,14 @@ I run a Jabber/XMPP server that is open for anyone to sign up on and use to chat
 
 ---
 
+# SSH
+If for some reason you need to give me access to your server via SSH, you can use [this][sshkey] ([signed version][sshkey_signed]) SSH key initially. 
+Once you have created my user, I will log in and replace the above key with key that is unique to the ssh://user@server:port combination.
+
+For managing my SSH keys, I use a [Bitcoin Trezor][bitcointrezor] 
+
+---
+
 # Crypto
 
 ### GnuPG
@@ -65,5 +73,8 @@ The following keys have been deprecated for one reason or another. Please don't 
 [keybase]:https://keybase.io/graffen/
 [xmpp.dk]:https://xmpp.dk
 [email]:mailto:jesper@graffen.dk
+[sshkey]:graffen-ssh-key.txt
+[sshkey_signed]:graffen-ssh-key.txt.asc
+[bitcointrezor]:https://bitcointrezor.com
 
 
