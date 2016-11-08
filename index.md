@@ -79,4 +79,4 @@ The following keys have been deprecated for one reason or another. Please don't 
 [sshkey_signed]:graffen-ssh-key.txt.asc
 [bitcointrezor]:https://bitcointrezor.com
 [transitionnotice]:transition-notice.html
-[keysigningpolicy]:keysigning/policy/
+[keysigningpolicy]:keysigning/policy/index.html
