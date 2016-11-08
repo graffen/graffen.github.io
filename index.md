@@ -20,9 +20,9 @@ Since I cannot guarantee that the OTR fingerprints listed below are always 100% 
 my current fingerprint, or by verifying it through some other trusted means.
 
 * Email: [jesper@graffen.dk][email]  
-[GnuPG](graffen.asc) Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`
+[GnuPG][graffen.asc] Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`
 If you have keybase, I prefer keybase-encrypted (and signed) messages rather than GnuPG.   
-* OTR (Jabber/XMPP): [graffen@xmpp.dk](xmpp:graffen@xmpp.dk)
+* OTR (Jabber/XMPP): [graffen@xmpp.dk][graffen@xmpp.dk]
   * graffen@xmpp.dk/Home  
     Fingerprint: `F513D9C5 36393609 51C801B5 C5F584C7 DC60B7D7`
   * graffen@xmpp.dk/Qubes  
@@ -49,13 +49,13 @@ For managing my SSH keys, I use a [Bitcoin Trezor][bitcointrezor]
 # Crypto
 
 ### GnuPG
-Read my latest GnuPG key [Transition Notice](/transition-notice.html)
+Read my latest GnuPG key [Transition Notice][transitionnotice]
 
 ### Key signing policy
 I will sign your PGP key if you ask me to, and I have somehow verified that the identity of the key matches your
 identity. I will probably also ask you to sign my key. 
 
-[GPG Key Signing Policy](/keysigning/policy/) [[Signed version]](/keysigning/policy/index.md.asc) 
+[GPG Key Signing Policy][keysigningpolicy] [[Signed version]](keysigning/policy/index.md.asc) 
 
 ### Deprecated Crypto Keys
 The following keys have been deprecated for one reason or another. Please don't use these to communicate with me. I haven't been too good at taking backups of my Jabber OTR keys so I've gone through a few of them. 
@@ -71,10 +71,12 @@ The following keys have been deprecated for one reason or another. Please don't 
 
 [blog]:https://blog.graffen.dk
 [keybase]:https://keybase.io/graffen/
+[graffen.asc]:graffen.asc
 [xmpp.dk]:https://xmpp.dk
+[graffen@xmpp.dk]:xmpp://graffen@xmpp.dk
 [email]:mailto:jesper@graffen.dk
 [sshkey]:graffen-ssh-key.txt
 [sshkey_signed]:graffen-ssh-key.txt.asc
 [bitcointrezor]:https://bitcointrezor.com
-
-
+[transitionnotice]:transition-notice.html
+[keysigningpolicy]:keysigning/policy/
