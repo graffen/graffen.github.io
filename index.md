@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi! I'm Jesper. You've found the place where I advertise my current set of crypto keys and fingerprints. So, if you wish to contact me, feel free to do so using one of the methods below. 
+Hi! I'm Jesper. You've found the place where I advertise my current set of crypto keys and fingerprints.  
 
 There's a GPG-signed version of the markdown behind this page [here](index.md.asc).
 
@@ -15,8 +15,8 @@ There's a GPG-signed version of the markdown behind this page [here](index.md.as
 
 # Contact
 
-The following are the best ways to contact me securely and/or anonymously. My public key fingerprints are listed next to each so you can verify you have the correct information.
-Since I cannot guarantee that the OTR fingerprints listed below are always 100% up-to-date, please also verify them in another way.
+The following are the best ways to contact me securely and/or anonymously.
+Since I cannot guarantee that the the fingerprints listed below are always 100% up-to-date, please also verify them through a different channel.
 
 * Email: [jesper@graffen.dk][email]  
 [GnuPG][graffen.asc] Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`   
@@ -36,10 +36,7 @@ I run a Jabber/XMPP server that is open for anyone to sign up on and use to chat
 ---
 
 # SSH
-If for some reason you need to give me access to your server via SSH, you can use [this][sshkey] ([signed version][sshkey_signed]) SSH key initially. 
-Once you have created my user, I will log in and replace the above key with key that is unique to your ssh://user@server:port combination.
-
-For managing my SSH keys, I use a [Bitcoin Trezor][bitcointrezor] 
+If you need to give me access to your server via SSH, you can use [this][sshkey] ([signed version][sshkey_signed]) SSH key initially. 
 
 ---
 
