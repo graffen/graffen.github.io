@@ -2,9 +2,9 @@
 layout: default
 ---
 
-Hi! I'm Jesper. This page is just a place where I advertise my current set of crypto keys and fingerprints. So, if you wish to contact me, feel free to do so using one of the methods below. 
+Hi! I'm Jesper. You've found the place where I advertise my current set of crypto keys and fingerprints. So, if you wish to contact me, feel free to do so using one of the methods below. 
 
-Get a GPG-signed version of the markdown behind this page [here](index.md.asc).
+There's a GPG-signed version of the markdown behind this page [here](index.md.asc).
 
 # Links
 
@@ -16,12 +16,10 @@ Get a GPG-signed version of the markdown behind this page [here](index.md.asc).
 # Contact
 
 The following are the best ways to contact me securely and/or anonymously. My public key fingerprints are listed next to each so you can verify you have the correct information.
-Since I cannot guarantee that the OTR fingerprints listed below are always 100% up-to-date, make sure you verify them through other means. For example by asking me to tweet
-my current fingerprint, or by verifying it through some other trusted means.
+Since I cannot guarantee that the OTR fingerprints listed below are always 100% up-to-date, please also verify them in another way.
 
 * Email: [jesper@graffen.dk][email]  
-[GnuPG][graffen.asc] Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`
-If you have keybase, I prefer keybase-encrypted (and signed) messages rather than GnuPG.   
+[GnuPG][graffen.asc] Fingerprint:  `03CD 582F 13C0 682C 8F52 9C05 8417 0D85 CAEB D4B2`   
 * OTR (Jabber/XMPP): [graffen@xmpp.dk][graffen@xmpp.dk]
   * graffen@xmpp.dk/Home  
     Fingerprint: `F513D9C5 36393609 51C801B5 C5F584C7 DC60B7D7`
@@ -29,7 +27,6 @@ If you have keybase, I prefer keybase-encrypted (and signed) messages rather tha
     Fingerprint: `6A99F136 E66972B9 B169D5B3 458828D1 4003240F`
 * Threema ID: MK3CPXV9  
   Fingerprint: `b163 bbb8 6899 d2aa c871 5d8d 8082 e1d0`
-* Ricochet: ricochet:zc3c3deoiqwrktdn
 
 ---
 
@@ -40,7 +37,7 @@ I run a Jabber/XMPP server that is open for anyone to sign up on and use to chat
 
 # SSH
 If for some reason you need to give me access to your server via SSH, you can use [this][sshkey] ([signed version][sshkey_signed]) SSH key initially. 
-Once you have created my user, I will log in and replace the above key with key that is unique to the ssh://user@server:port combination.
+Once you have created my user, I will log in and replace the above key with key that is unique to your ssh://user@server:port combination.
 
 For managing my SSH keys, I use a [Bitcoin Trezor][bitcointrezor] 
 
