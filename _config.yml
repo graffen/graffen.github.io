@@ -10,3 +10,9 @@ github_username:  graffen
 
 # Build settings
 markdown: kramdown
+exclude:
+  - node_modules
+  - Gemfile*
+  - gulpfile.js
+  - package.json
+  - README.md
