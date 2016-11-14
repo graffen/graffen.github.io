@@ -3,50 +3,51 @@ https://keybase.io/graffen
 
 I hereby claim:
 
-  * I am an admin of http://graffen.dk
+  * I am an admin of https://graffen.dk
   * I am graffen (https://keybase.io/graffen) on keybase.
   * I have a public key ASBvJm8RlwRd3aioYh3HFmVivADwjgOy3Fd05SH2B6kUDQo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "0101e9446958e563a7dccab8d749faf227c159aa1b502e307b88ed3eb71346a9e6670a",
-            "host": "keybase.io",
-            "kid": "01206f266f1197045ddda8a8621dc7166562bc00f08e03b2dc5774e521f607a9140d0a",
-            "uid": "9480ebbe81bab49060a5f4d71b308300",
-            "username": "graffen"
+    body: {
+        key: {
+            eldest_kid: 0101e9446958e563a7dccab8d749faf227c159aa1b502e307b88ed3eb71346a9e6670a,
+            host: keybase.io,
+            kid: 01206f266f1197045ddda8a8621dc7166562bc00f08e03b2dc5774e521f607a9140d0a,
+            uid: 9480ebbe81bab49060a5f4d71b308300,
+            username: graffen
         },
-        "service": {
-            "hostname": "graffen.dk",
-            "protocol": "http:"
+        service: {
+            hostname: graffen.dk,
+            protocol: https:
         },
-        "type": "web_service_binding",
-        "version": 1
+        type: web_service_binding,
+        version: 1
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.17"
+    client: {
+        name: keybase.io go client,
+        version: 1.0.18
     },
-    "ctime": 1477059146,
-    "expire_in": 504576000,
-    "merkle_root": {
-        "ctime": 1477059066,
-        "hash": "9d5266131e83e8d9a84e3026b0461f0d048be96c1d8a16d986d461d189a9400d03e65b4e1dfb05c3fdb0f9d26f7ac7201daa1ffa8828093301f189083a59eb90",
-        "seqno": 684271
+    ctime: 1479151930,
+    expire_in: 504576000,
+    merkle_root: {
+        ctime: 1479151860,
+        hash: c7ec6b5abd9ddab0c1327939107880fc23d9835c7fa005df2d0931acbacfee14b2cf09ebb0bf088bc6d19f357c668ce0abe1f6f93ce9aaf827e33297151943a0,
+        seqno: 714112
     },
-    "prev": "c111edd4fbebd20b4cb48b651fc8d7ce0c8a73ecca82915500c95f65074c4054",
-    "seqno": 91,
-    "tag": "signature"
+    prev: 75b30d224ecd3beffc5fb7305cf93b34e35dd9d1130b2e5a60497f911d71e583,
+    seqno: 120,
+    tag: signature
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbyZvEZcEXd2oqGIdxxZlYrwA8I4DstxXdOUh9gepFA0Kp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZTk0NDY5NThlNTYzYTdkY2NhYjhkNzQ5ZmFmMjI3YzE1OWFhMWI1MDJlMzA3Yjg4ZWQzZWI3MTM0NmE5ZTY2NzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmYyNjZmMTE5NzA0NWRkZGE4YTg2MjFkYzcxNjY1NjJiYzAwZjA4ZTAzYjJkYzU3NzRlNTIxZjYwN2E5MTQwZDBhIiwidWlkIjoiOTQ4MGViYmU4MWJhYjQ5MDYwYTVmNGQ3MWIzMDgzMDAiLCJ1c2VybmFtZSI6ImdyYWZmZW4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImdyYWZmZW4uZGsiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc3MDU5MTQ2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzcwNTkwNjYsImhhc2giOiI5ZDUyNjYxMzFlODNlOGQ5YTg0ZTMwMjZiMDQ2MWYwZDA0OGJlOTZjMWQ4YTE2ZDk4NmQ0NjFkMTg5YTk0MDBkMDNlNjViNGUxZGZiMDVjM2ZkYjBmOWQyNmY3YWM3MjAxZGFhMWZmYTg4MjgwOTMzMDFmMTg5MDgzYTU5ZWI5MCIsInNlcW5vIjo2ODQyNzF9LCJwcmV2IjoiYzExMWVkZDRmYmViZDIwYjRjYjQ4YjY1MWZjOGQ3Y2UwYzhhNzNlY2NhODI5MTU1MDBjOTVmNjUwNzRjNDA1NCIsInNlcW5vIjo5MSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDz2XnTZ2Hgc9Pf5BjvOqab0/99lWufCUKZlQkYHIR46T0FfhhV++NQc2ZgvzRskxmTf9F/LHwEDFkhaZ+KV/EKqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgIAdbf2KAxJsqZOuYvnOIhLxw15MtId2/O5hJFvCbvVajdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbyZvEZcEXd2oqGIdxxZlYrwA8I4DstxXdOUh9gepFA0Kp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZTk0NDY5NThlNTYzYTdkY2NhYjhkNzQ5ZmFmMjI3YzE1OWFhMWI1MDJlMzA3Yjg4ZWQzZWI3MTM0NmE5ZTY2NzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmYyNjZmMTE5NzA0NWRkZGE4YTg2MjFkYzcxNjY1NjJiYzAwZjA4ZTAzYjJkYzU3NzRlNTIxZjYwN2E5MTQwZDBhIiwidWlkIjoiOTQ4MGViYmU4MWJhYjQ5MDYwYTVmNGQ3MWIzMDgzMDAiLCJ1c2VybmFtZSI6ImdyYWZmZW4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImdyYWZmZW4uZGsiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ3OTE1MTkzMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc5MTUxODYwLCJoYXNoIjoiYzdlYzZiNWFiZDlkZGFiMGMxMzI3OTM5MTA3ODgwZmMyM2Q5ODM1YzdmYTAwNWRmMmQwOTMxYWNiYWNmZWUxNGIyY2YwOWViYjBiZjA4OGJjNmQxOWYzNTdjNjY4Y2UwYWJlMWY2ZjkzY2U5YWFmODI3ZTMzMjk3MTUxOTQzYTAiLCJzZXFubyI6NzE0MTEyfSwicHJldiI6Ijc1YjMwZDIyNGVjZDNiZWZmYzVmYjczMDVjZjkzYjM0ZTM1ZGQ5ZDExMzBiMmU1YTYwNDk3ZjkxMWQ3MWU1ODMiLCJzZXFubyI6MTIwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQJkhnBb6RWCZvMjKbvUc+yNBp2ClQwctu8mwZMahhb+nuMGJM+RskYmuiu1/JaHiLYioRoQnb3/qGWahDhNzigKoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCA0SiergFZAJISKAkZeSS6wgum3d6331NR/g2OMfWnaz6N0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/graffen
+
 
