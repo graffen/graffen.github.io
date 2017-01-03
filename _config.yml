@@ -1,12 +1,9 @@
 # Site settings
-title: Graffen's little space on the Internet
+title: graffen.dk
 email: jesper@graffen.dk
 description: > # this means to ignore newlines until "baseurl:"
-  Just a few interesting links and basic information.
+  My crypto keys and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://graffen.dk" # the base hostname & protocol for your site
-twitter_username: graffen
-github_username:  graffen
 
 # Build settings
 markdown: kramdown
