@@ -36,7 +36,12 @@ I run a Jabber/XMPP server that is open for anyone to sign up on and use to chat
 ---
 
 # SSH
-If you need to give me access to your server via SSH, you can use [this][sshkey] ([signed version][sshkey_signed]) SSH key initially. 
+If you need to give me access to your server via SSH, you can use [this][sshkey] ([GPG signature][sshkey_signed]) SSH key initially. 
+
+---
+
+# Personal CA root certificate
+I run my own CA. [here][rootcert] is the root certificate ([GPG signature][rootcert_signed])
 
 ---
 
@@ -49,7 +54,7 @@ Read my latest GnuPG key [Transition Notice][transitionnotice]
 I will sign your PGP key if you ask me to, and I have somehow verified that the identity of the key matches your
 identity. I will probably also ask you to sign my key. 
 
-[GPG Key Signing Policy][keysigningpolicy] [[Signed version]](keysigning/policy/index.md.asc) 
+[GPG Key Signing Policy][keysigningpolicy] [Signed version](keysigning/policy/index.md.asc) 
 
 ### Deprecated Crypto Keys
 The following keys have been deprecated for one reason or another. Please don't use these to communicate with me. I haven't been too good at taking backups of my Jabber OTR keys so I've gone through a few of them. 
@@ -74,3 +79,5 @@ The following keys have been deprecated for one reason or another. Please don't 
 [bitcointrezor]:https://bitcointrezor.com
 [transitionnotice]:transition-notice.html
 [keysigningpolicy]:keysigning/policy/index.html
+[rootcert]: ca.graffen.root.cert.pem
+[rootcert_signed]: ca.graffen.root.cert.pem.asc
